@@ -142,3 +142,92 @@
     </style>
 </head>
 <body>
+
+    <!-- Encabezado principal de la página con menú -->
+    <header>
+        <h1>Reparación de Tarjetas Electrónicas</h1>
+        <p>Servicios profesionales para recuperar tus dispositivos electrónicos</p>
+        
+        <!-- Menú de navegación -->
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a>
+                    <!-- Submenú de Servicios -->
+                    <ul>
+                        <li><a href="#diagnostico">Diagnóstico de fallas</a></li>
+                        <li><a href="#reparacion">Reparación de tarjetas</a></li>
+                        <li><a href="#restauracion">Restauración de circuitos</a></li>
+                    </ul>
+                </li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de introducción al servicio -->
+    <main>
+        <section id="inicio">
+            <h2>¿Quiénes somos?</h2>
+            <p>Somos especialistas en la reparación de tarjetas electrónicas, con más de 10 años de experiencia en el sector. Nuestro equipo utiliza las herramientas y técnicas más avanzadas para ofrecerte un servicio confiable y rápido.</p>
+        </section>
+
+        <!-- Sección de servicios ofrecidos -->
+        <section id="servicios">
+            <h2>Servicios que ofrecemos</h2>
+            <ul>
+                <li id="diagnostico">Diagnóstico de fallas electrónicas</li>
+                <li id="reparacion">Reparación de tarjetas de control</li>
+                <li id="restauracion">Restauración de circuitos dañados</li>
+            </ul>
+        </section>
+
+        <!-- Sección con imágenes de trabajo -->
+        <section id="galeria">
+            <h2>Galería de nuestros trabajos</h2>
+            <figure>
+                <img src="reparacion1.jpg" alt="Técnico reparando una tarjeta de control">
+                <figcaption>Reparación de tarjeta de control industrial</figcaption>
+            </figure>
+            <figure>
+                <img src="reparacion2.jpg" alt="Detalle de soldadura en un circuito electrónico">
+                <figcaption>Soldadura precisa en circuitos electrónicos</figcaption>
+            </figure>
+            <figure>
+                <img src="reparacion3.jpg" alt="Equipo de herramientas de precisión para electrónica">
+                <figcaption>Equipo de herramientas especializado</figcaption>
+            </figure>
+        </section>
+
+        <!-- Sección de material de apoyo -->
+        <section class="material-apoyo">
+            <h2>Material de apoyo para aprender sobre electrónica</h2>
+            <ul>
+                <li><a href="https://example.com/curso-basico-electronica" target="_blank">Curso básico de electrónica</a></li>
+                <li><a href="https://example.com/tips-reparacion" target="_blank">Tips para reparación de circuitos</a></li>
+                <li><a href="https://example.com/introduccion-componentes" target="_blank">Introducción a los componentes electrónicos</a></li>
+                <li><a href="https://example.com/manual-soldadura" target="_blank">Guía para soldadura de componentes</a></li>
+            </ul>
+        </section>
+
+        <!-- Nueva sección de contacto con formulario -->
+        <section id="contacto">
+            <h2>Contáctanos</h2>
+            <p>Para más información o para solicitar una consulta, completa el siguiente formulario y nos pondremos en contacto contigo:</p>
+            <div class="contact-form">
+                <form action="https://example.com/enviar-formulario" method="post">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required>
+
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="telefono">Número Telefónico</label>
+                    <input type="tel" id="telefono" name="telefono" required>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
