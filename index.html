@@ -6,3 +6,139 @@
     <title>Servicio de Reparación de Tarjetas Electrónicas</title>
     <link rel="shortcut icon" href="./img proyecto/logoproyct.png" type="image/x-icon">
     <style>
+        /* Fondo de la página con gradiente en color carmesí */
+        body {
+            background: linear-gradient(to top right, crimson, #ffffff);
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+        }
+
+        /* Estilos básicos para el menú */
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+        
+        /* Estilos para el menú y sus enlaces */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        nav ul li {
+            display: inline-block;
+            position: relative;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+
+        nav ul li:hover {
+            background-color: #555;
+        }
+
+        /* Estilos para el menú desplegable */
+        nav ul ul {
+            display: none; /* Oculta el submenú */
+            position: absolute;
+            background-color: #555;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        nav ul li:hover ul {
+            display: block; /* Muestra el submenú cuando el usuario pasa el cursor */
+        }
+
+        nav ul ul li {
+            width: 200px;
+            display: block;
+        }
+
+        nav ul ul li a {
+            padding: 10px;
+            display: block;
+        }
+
+        /* Estilos para las secciones principales */
+        header, main, footer {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        /* Estilo para la sección de material de apoyo */
+        .material-apoyo {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+
+        .material-apoyo h2 {
+            margin-top: 0;
+        }
+
+        .material-apoyo ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .material-apoyo ul li {
+            margin: 5px 0;
+        }
+
+        .material-apoyo ul li a {
+            color: #c71585; /* Color de los enlaces de material de apoyo */
+            text-decoration: none;
+        }
+
+        .material-apoyo ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Estilo para el formulario de contacto */
+        .contact-form {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .contact-form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .contact-form input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            background-color: crimson;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #a30000;
+        }
+    </style>
+</head>
+<body>
